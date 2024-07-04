@@ -16,52 +16,52 @@
   <body>
     <header>
       <div class="main-header">
-        <h1>LA MONTAGNE ÇA VOUS GAGNE</h1>
+        <h1>la montage <br />ça vous gagne</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
           nihil quod voluptate molestiae laborum ut.
         </p>
 
-        <div class="header-logo">
-          <i class="fa-regular fa-circle-down"></i>
-        </div>
+        <span
+          ><a href="#main"><i class="fa-solid fa-arrow-down"></i></a
+        ></span>
       </div>
+
+      <nav class="nav-left">
+        <ul>
+          <li>this is massively</li>
+          <li>generic page</li>
+          <li>element reference</li>
+        </ul>
+        <div class="social-network">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li>THIS IS MASSIVELY</li>
-        <li>GENERIC PAGE</li>
-        <li>ELEMENT REFERENCE</li>
-      </ul>
-      <div class="social-network">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-github"></i>
-      </div>
-    </nav>
+    <main id="main">
+      <section class="section1">
+        <span>April 25,2017</span>
+        <h2>
+          and this is a <br />
+          massive headline
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
+          amet exercitationem, corporis consequatur, error voluptatum temporibus
+          quis maxime consequuntur odit iusto tempora quasi nulla, earum cum!
+        </p>
+        <img src="./assets/images/pic01.jpg" alt="Valley" />
+        <button class="btn">FULL STORY</button>
+      </section>
 
-    <section class="news-part">
-      <div class="header-news-container">
-        <div class="header-news">
-          <h4>April 25,2017</h4>
-          <h2>AND THIS IS A MASSIVE HEADLINE</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
-            amet exercitationem, corporis consequatur, error voluptatum
-            temporibus quis maxime consequuntur odit iusto tempora quasi nulla,
-            earum cum!
-          </p>
-          <img src="./assets/images/pic01.jpg" alt="Valley" />
-          <button class="full-story">FULL STORY</button>
-        </div>
-      </div>
-
-      <div class="bottom-news-container">
-        <div class="bottom-news-left">
-          <h4>April 24,2017</h4>
-          <h3>SED MAGNA IPSUM FAUCIBUS</h3>
+      <section class="section2">
+        <div class="left-part">
+          <span>April 24,2017</span>
+          <h3>sed magna <br />ipsum faucibus</h3>
 
           <img src="./assets/images/pic02.jpg" alt="Valley" />
           <p>
@@ -70,12 +70,12 @@
             temporibus quis maxime consequuntur odit iusto tempora quasi nulla,
             earum cum!
           </p>
-          <button class="full-story">FULL STORY</button>
+          <button class="btn">FULL STORY</button>
         </div>
 
-        <div class="bottom-news-right">
-          <h4>April 22,2017</h4>
-          <h3>PRIMIS EGET IMPERDIET LOREM</h3>
+        <div class="right-part">
+          <span>April 22,2017</span>
+          <h3>primis eget<br />imperdiet lorem</h3>
 
           <img src="./assets/images/pic03.jpg" alt="Valley" />
           <p>
@@ -84,49 +84,43 @@
             temporibus quis maxime consequuntur odit iusto tempora quasi nulla,
             earum cum!
           </p>
-          <button class="full-story">FULL STORY</button>
+          <button class="btn">FULL STORY</button>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
     <footer>
-      <div class="left-footer-container">
-        <form action="">
-          <label for="name">NAME</label>
-          <input type="text" name="" id="name" />
-
-          <br />
-
-          <label for="email">EMAIL</label>
-          <input type="email" name="" id="email" />
-          <br />
-
-          <label for="">MESSAGE</label>
-          <textarea cols="50" rows="15"></textarea>
-
-          <br />
-          <input type="submit" value="SEND MESSAGE" />
-        </form>
-      </div>
-
-      <div class="right-footer-container">
-        <div class="infos">
-          <p>ADRESS</p>
-          <p>1234 Somewhere Road #4569 Nashille, TN 0000000-000</p>
+      <form action="">
+        <label for="name">name</label>
+        <input type="text" id="name" />
+        <label for="email">email</label>
+        <input type="email" id="email" />
+        <label for="">message</label>
+        <textarea id="message"></textarea>
+        <div class="submit-container">
+          <input type="submit" class="btn" value="send message" />
         </div>
-        <div class="infos">
-          <p>PHONE</p>
-          <p>(000)000-000</p>
+      </form>
+
+      <div class="infos-contact">
+        <div>
+          <h3>adress</h3>
+          <p><br>1234 Somehere Road #87257<br>Nashville, TN 00000-0000</p>
         </div>
-        <div class="infos">
-          <p>EMAIL</p>
-          <p>infos@untilted.itd</p>
-        </div>
-        <div class="infos">
-          <p>SOCIAL</p>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-github"></i>
+        <div>
+          <h3>phone</h3>
+          <p>(000) 000-0000</p>
+        </div><div>
+          <h3>email</h3>
+          <p>info@untitled.ltd</p>
+        </div class="social">
+        <h3>social</h3>
+        <ul>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
         </div>
       </div>
     </footer>
